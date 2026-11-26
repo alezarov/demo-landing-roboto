@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" role="img" aria-label="Friendly robot built from LEGO Education WeDo and Arduino parts">
+  <title>Robot built in class</title>
+  <defs>
+    <linearGradient id="hr-metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e4eefa"/>
+    </linearGradient>
+    <linearGradient id="hr-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfeff"/>
+      <stop offset="1" stop-color="#d9ebf8"/>
+    </linearGradient>
+    <linearGradient id="hr-leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#cdf09a"/>
+      <stop offset="1" stop-color="#79c141"/>
+    </linearGradient>
+    <linearGradient id="hr-eye" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ceaff"/>
+      <stop offset="1" stop-color="#2aa9ef"/>
+    </linearGradient>
+    <radialGradient id="hr-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#c3e88a" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#c3e88a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hr-glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#8fd8ff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#8fd8ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hr-stage" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eafbd0"/>
+      <stop offset="0.55" stop-color="#d6f0af"/>
+      <stop offset="1" stop-color="#bfe58c"/>
+    </linearGradient>
+    <pattern id="hr-dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.4" fill="#0f2a20" opacity=".10"/>
+    </pattern>
+  </defs>
+
+  <rect width="560" height="560" fill="url(#hr-dots)"/>
+  <circle cx="120" cy="130" r="180" fill="url(#hr-glow)"/>
+  <circle cx="452" cy="410" r="170" fill="url(#hr-glow2)"/>
+
+  <!-- color stage behind the robot -->
+  <circle cx="286" cy="306" r="214" fill="url(#hr-stage)"/>
+  <circle cx="286" cy="306" r="214" fill="none" stroke="#ffffff" stroke-width="3" opacity=".5"/>
+  <circle cx="450" cy="126" r="72" fill="#c6e9ff" opacity=".7"/>
+  <circle cx="92" cy="454" r="52" fill="#ffd9c7" opacity=".65"/>
+
+  <!-- decorative gears -->
+  <g transform="translate(76,392)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="22s" repeatCount="indefinite"/>
+      <circle r="30" fill="url(#hr-leaf)" opacity=".9"/>
+      <circle r="12" fill="#fbfeff"/>
+      <g><rect x="-5.5" y="-40" width="11" height="16" rx="5.5" fill="url(#hr-leaf)" opacity=".9"/></g>
+      <g transform="rotate(45)"><rect x="-5.5" y="-40" width="11" height="16" rx="5.5" fill="url(#hr-leaf)" opacity=".9"/></g>
+      <g transform="rotate(90)"><rect x="-5.5" y="-40" width="11" height="16" rx="5.5" fill="url(#hr-leaf)" opacity=".9"/></g>
+      <g transform="rotate(135)"><rect x="-5.5" y="-40" width="11" height="16" rx="5.5" fill="url(#hr-leaf)" opacity=".9"/></g>
+      <g transform="rotate(180)"><rect x="-5.5" y="-40" width="11" height="16" rx="5.5" fill="url(#hr-leaf)" opacity=".9"/></g>
+      <g transform="rotate(225)"><rect x="-5.5" y="-40" width="11" height="16" rx="5.5" fill="url(#hr-leaf)" opacity=".9"/></g>
+      <g transform="rotate(270)"><rect x="-5.5" y="-40" width="11" height="16" rx="5.5" fill="url(#hr-leaf)" opacity=".9"/></g>
+      <g transform="rotate(315)"><rect x="-5.5" y="-40" width="11" height="16" rx="5.5" fill="url(#hr-leaf)" opacity=".9"/></g>
+    </g>
+  </g>
+  <g transform="translate(496,150)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="16s" repeatCount="indefinite"/>
+      <circle r="20" fill="#9fd6ef" opacity=".85"/>
+      <circle r="8" fill="#fbfeff"/>
+      <g><rect x="-4.5" y="-28" width="9" height="13" rx="4.5" fill="#9fd6ef" opacity=".85"/></g>
+      <g transform="rotate(60)"><rect x="-4.5" y="-28" width="9" height="13" rx="4.5" fill="#9fd6ef" opacity=".85"/></g>
+      <g transform="rotate(120)"><rect x="-4.5" y="-28" width="9" height="13" rx="4.5" fill="#9fd6ef" opacity=".85"/></g>
+      <g transform="rotate(180)"><rect x="-4.5" y="-28" width="9" height="13" rx="4.5" fill="#9fd6ef" opacity=".85"/></g>
+      <g transform="rotate(240)"><rect x="-4.5" y="-28" width="9" height="13" rx="4.5" fill="#9fd6ef" opacity=".85"/></g>
+      <g transform="rotate(300)"><rect x="-4.5" y="-28" width="9" height="13" rx="4.5" fill="#9fd6ef" opacity=".85"/></g>
+    </g>
+  </g>
+
+  <!-- sparkles -->
+  <g fill="#ffb020">
+    <path d="M104 176c2 10 4 12 14 14-10 2-12 4-14 14-2-10-4-12-14-14 10-2 12-4 14-14z">
+      <animate attributeName="opacity" values=".25;1;.25" dur="3.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M470 300c1.6 8 3.2 9.6 11.2 11.2-8 1.6-9.6 3.2-11.2 11.2-1.6-8-3.2-9.6-11.2-11.2 8-1.6 9.6-3.2 11.2-11.2z">
+      <animate attributeName="opacity" values="1;.2;1" dur="4.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M168 96c1.4 7 2.8 8.4 9.8 9.8-7 1.4-8.4 2.8-9.8 9.8-1.4-7-2.8-8.4-9.8-9.8 7-1.4 8.4-2.8 9.8-9.8z">
+      <animate attributeName="opacity" values=".3;1;.3" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="#7c5cff" opacity=".7">
+    <circle cx="418" cy="96" r="7"/>
+    <circle cx="132" cy="256" r="5"/>
+    <circle cx="470" cy="472" r="6"/>
+  </g>
+
+  <!-- shadow -->
+  <ellipse cx="280" cy="486" rx="146" ry="24" fill="#0f2a20" opacity=".10"/>
+
+  <!-- wheels -->
+  <rect x="182" y="418" width="76" height="48" rx="18" fill="#9fb3c4"/>
+  <rect x="302" y="418" width="76" height="48" rx="18" fill="#9fb3c4"/>
+  <rect x="196" y="434" width="48" height="10" rx="5" fill="#ffffff" opacity=".55"/>
+  <rect x="316" y="434" width="48" height="10" rx="5" fill="#ffffff" opacity=".55"/>
+
+  <!-- arms -->
+  <rect x="126" y="298" width="40" height="126" rx="20" fill="url(#hr-metal)" stroke="#b7cde2" stroke-width="3"/>
+  <rect x="394" y="298" width="40" height="126" rx="20" fill="url(#hr-metal)" stroke="#b7cde2" stroke-width="3"/>
+  <circle cx="146" cy="432" r="22" fill="#dbe4ee" stroke="#adc2d6" stroke-width="3"/>
+  <circle cx="414" cy="432" r="22" fill="#dbe4ee" stroke="#adc2d6" stroke-width="3"/>
+
+  <!-- body -->
+  <rect x="172" y="268" width="216" height="176" rx="42" fill="url(#hr-body)" stroke="#b7cde2" stroke-width="4"/>
+  <circle cx="280" cy="352" r="46" fill="#f2f9ff" stroke="#b7cde2" stroke-width="4"/>
+  <g transform="translate(280,352)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="12s" repeatCount="indefinite"/>
+      <circle r="22" fill="url(#hr-leaf)"/>
+      <circle r="9" fill="#f2f9ff"/>
+      <g><rect x="-4" y="-30" width="8" height="12" rx="4" fill="url(#hr-leaf)"/></g>
+      <g transform="rotate(60)"><rect x="-4" y="-30" width="8" height="12" rx="4" fill="url(#hr-leaf)"/></g>
+      <g transform="rotate(120)"><rect x="-4" y="-30" width="8" height="12" rx="4" fill="url(#hr-leaf)"/></g>
+      <g transform="rotate(180)"><rect x="-4" y="-30" width="8" height="12" rx="4" fill="url(#hr-leaf)"/></g>
+      <g transform="rotate(240)"><rect x="-4" y="-30" width="8" height="12" rx="4" fill="url(#hr-leaf)"/></g>
+      <g transform="rotate(300)"><rect x="-4" y="-30" width="8" height="12" rx="4" fill="url(#hr-leaf)"/></g>
+    </g>
+  </g>
+  <!-- status bars -->
+  <rect x="222" y="404" width="26" height="10" rx="5" fill="#7c5cff">
+    <animate attributeName="opacity" values=".3;1;.3" dur="1.8s" repeatCount="indefinite" begin="0s"/>
+  </rect>
+  <rect x="258" y="404" width="44" height="10" rx="5" fill="#37b6ff">
+    <animate attributeName="opacity" values=".3;1;.3" dur="1.8s" repeatCount="indefinite" begin="0.3s"/>
+  </rect>
+  <rect x="312" y="404" width="26" height="10" rx="5" fill="#ff7a45">
+    <animate attributeName="opacity" values=".3;1;.3" dur="1.8s" repeatCount="indefinite" begin="0.6s"/>
+  </rect>
+
+  <!-- ears -->
+  <rect x="158" y="186" width="16" height="46" rx="8" fill="#dbe4ee" stroke="#adc2d6" stroke-width="3"/>
+  <rect x="386" y="186" width="16" height="46" rx="8" fill="#dbe4ee" stroke="#adc2d6" stroke-width="3"/>
+
+  <!-- antenna -->
+  <rect x="276" y="112" width="8" height="42" rx="4" fill="#b9c9d8"/>
+  <circle cx="280" cy="106" r="13" fill="#ff7a45"/>
+  <circle cx="280" cy="106" r="13" fill="#ff7a45">
+    <animate attributeName="r" values="13;18;13" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".45;0;.45" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- head -->
+  <rect x="190" y="146" width="180" height="130" rx="38" fill="url(#hr-metal)" stroke="#b7cde2" stroke-width="4"/>
+  <rect x="216" y="184" width="128" height="58" rx="28" fill="#12342a"/>
+  <g transform="translate(280,213)">
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="1 1;1 1;1 0.08;1 1;1 1" keyTimes="0;0.9;0.94;0.98;1" dur="5.5s" repeatCount="indefinite"/>
+      <rect x="-48" y="-14" width="40" height="28" rx="14" fill="url(#hr-eye)"/>
+      <rect x="8" y="-14" width="40" height="28" rx="14" fill="url(#hr-eye)"/>
+    </g>
+  </g>
+  <circle cx="280" cy="258" r="7" fill="#b6f06c"/>
+  <path d="M244 258q36 24 72 0" fill="none" stroke="#9fb3c4" stroke-width="6" stroke-linecap="round" opacity=".55"/>
+
+  <!-- little code brackets -->
+  <text x="62" y="196" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="34" font-weight="700" fill="#7c5cff" opacity=".5">&lt;/&gt;</text>
+</svg>

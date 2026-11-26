@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Bright Bots Academy">
+  <defs>
+    <linearGradient id="fav-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#cdf09a"/>
+      <stop offset="1" stop-color="#7cc244"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#fav-bg)"/>
+  <rect x="29.5" y="15" width="4" height="10" rx="2" fill="#12342a"/>
+  <circle cx="31.5" cy="14" r="4.2" fill="#ff7a45"/>
+  <rect x="13" y="24" width="37" height="25" rx="9" fill="#12342a"/>
+  <circle cx="24" cy="35" r="4.2" fill="#b6f06c"/>
+  <circle cx="39" cy="35" r="4.2" fill="#b6f06c"/>
+  <rect x="26" y="42" width="11" height="3" rx="1.5" fill="#b6f06c" opacity=".75"/>
+</svg>

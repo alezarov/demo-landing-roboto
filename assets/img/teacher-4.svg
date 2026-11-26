@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Portrait placeholder for teacher 4">
+  <defs>
+    <linearGradient id="bg-4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4f1ff"/>
+      <stop offset="1" stop-color="#e4dcff"/>
+    </linearGradient>
+    <linearGradient id="sh-4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2fc077"/>
+      <stop offset="1" stop-color="#22a161"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="30" fill="url(#bg-4)"/>
+  <circle cx="196" cy="44" r="52" fill="#ffffff" opacity=".34"/>
+  <circle cx="36" cy="208" r="46" fill="#7c5cff" opacity=".22"/>
+  <rect x="52" y="164" width="136" height="86" rx="38" fill="url(#sh-4)"/>
+  <rect x="104" y="132" width="32" height="42" rx="14" fill="#e0bd97"/>
+  <path d="M120 150l14 12-14 12-14-12z" fill="#ffffff" opacity=".22"/>
+  <g>
+      <path d="M120 52c-27 0-48 21-48 50v70a16 16 0 0 0 16 16h12V120h40v68h12a16 16 0 0 0 16-16v-70c0-29-21-50-48-50z" fill="#6b4423"/>
+      <circle cx="120" cy="104" r="46" fill="#6b4423"/>
+      <path d="M76 102a44 44 0 0 1 88 0c-9-17-26-24-44-24s-35 7-44 24z" fill="#6b4423"/>
+  </g>
+  <circle cx="120" cy="106" r="42" fill="#f7d7b5"/>
+  <path d="M78 106a42 42 0 0 1 84 0z" fill="#6b4423" opacity="0"/>
+  <g>
+      <g fill="none" stroke="#3a2f2a" stroke-width="3.4" opacity=".85"><rect x="92" y="96" width="26" height="21" rx="9"/><rect x="122" y="96" width="26" height="21" rx="9"/><path d="M118 106h4"/><path d="M92 104l-9-4"/><path d="M148 104l9-4"/></g>
+      <circle cx="105" cy="106" r="4.6" fill="#3a2f2a"/>
+      <circle cx="135" cy="106" r="4.6" fill="#3a2f2a"/>
+      <path d="M108 122q12 10 24 0" fill="none" stroke="#3a2f2a" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+      <circle cx="94" cy="117" r="7" fill="#ff8d7a" opacity=".28"/>
+      <circle cx="146" cy="117" r="7" fill="#ff8d7a" opacity=".28"/>
+  </g>
+  <rect x="106" y="86" width="28" height="6" rx="3" fill="#e0bd97" opacity=".18"/>
+</svg>

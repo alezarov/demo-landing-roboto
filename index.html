@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bright Bots Academy — Robotics &amp; Coding Classes for Kids in Austin, TX</title>
+  <meta name="description" content="Hands-on robotics and engineering classes for kids ages 6–10 in Austin, TX. Kids build and program real robots with LEGO Education WeDo and Arduino. First class FREE — book in one click on WhatsApp.">
+  <meta name="theme-color" content="#eefad9">
+
+  <!-- Theme: apply the saved / system preference before first paint to avoid a flash -->
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('theme');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var theme = (stored === 'dark' || stored === 'light') ? stored : (prefersDark ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+        document.documentElement.style.colorScheme = theme;
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+  </script>
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Build Robots. Learn to Code. Have Fun! — Bright Bots Academy">
+  <meta property="og:description" content="Robotics and coding classes for kids ages 6–10 in Austin, TX. Real robots, small groups, engineer-teachers. First class FREE.">
+  <meta property="og:image" content="assets/img/hero-robot.svg">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <script>document.documentElement.classList.add('js');</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Bright Bots Academy",
+    "description": "Hands-on robotics and engineering classes for kids ages 6–10 in Austin, TX.",
+    "url": "https://example.com/",
+    "telephone": "+1-512-555-0147",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1234 Innovation Drive, Suite 210",
+      "addressLocality": "Austin",
+      "addressRegion": "TX",
+      "postalCode": "78701",
+      "addressCountry": "US"
+    },
+    "areaServed": "Austin, TX"
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Decorative background: pistachio gradients + grid + parallax blobs -->
+  <div class="bg-decor" aria-hidden="true">
+    <span class="bg-decor__blob blob-1" data-parallax="0.08"></span>
+    <span class="bg-decor__blob blob-2" data-parallax="-0.05"></span>
+    <span class="bg-decor__blob blob-3" data-parallax="0.12"></span>
+    <span class="bg-decor__grid"></span>
+  </div>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header" id="site-header">
+    <div class="container header__inner">
+      <a class="brand" href="#top">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" fill="none">
+            <rect x="29" y="12" width="6" height="10" rx="3" fill="#0f2a20"/>
+            <circle cx="32" cy="10" r="5" fill="#ff7a45"/>
+            <rect x="12" y="22" width="40" height="28" rx="10" fill="#0f2a20"/>
+            <rect x="21" y="31" width="8" height="9" rx="4" fill="#c3e88a"/>
+            <rect x="35" y="31" width="8" height="9" rx="4" fill="#c3e88a"/>
+            <path d="M26 45h12" stroke="#c3e88a" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+          </svg>
+        </span>
+        <span class="brand__text">
+          <span data-placeholder="school-name">Bright Bots</span>
+          <small>Robotics Academy · Austin</small>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#learn">Program</a>
+        <a href="#teachers">Teachers</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#location">Location</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="Switch to dark theme" title="Switch to dark theme">
+          <span class="theme-toggle__icons" aria-hidden="true">
+            <svg class="theme-toggle__moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+            <svg class="theme-toggle__sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></svg>
+          </span>
+        </button>
+        <a class="btn btn--ghost btn--sm" href="tel:+15125550147" data-track="phone" data-location="header">
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          Call us
+        </a>
+        <a class="btn btn--primary btn--sm" href="https://wa.me/15125550147?text=Hi%21%20I%27d%20like%20to%20book%20a%20FREE%20trial%20robotics%20class%20for%20my%20child%20%28age%20___%29.%20What%20times%20are%20available%3F" data-wa="header" target="_blank" rel="noopener">
+          Book FREE Class
+        </a>
+        <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-nav" id="mobile-nav" hidden>
+      <div class="container">
+        <nav class="mobile-nav__list" aria-label="Mobile navigation">
+          <a href="#learn">Program</a>
+          <a href="#teachers">Teachers</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#location">Location</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="mobile-nav__foot">
+          <button class="theme-toggle theme-toggle--block" type="button" data-theme-toggle aria-pressed="false" aria-label="Switch to dark theme" title="Switch to dark theme">
+            <span class="theme-toggle__icons" aria-hidden="true">
+              <svg class="theme-toggle__moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+              <svg class="theme-toggle__sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6"/></svg>
+            </span>
+            <span class="theme-toggle__label">Dark theme</span>
+          </button>
+          <a class="btn btn--primary btn--block" href="https://wa.me/15125550147?text=Hi%21%20I%27d%20like%20to%20book%20a%20FREE%20trial%20robotics%20class%20for%20my%20child%20%28age%20___%29.%20What%20times%20are%20available%3F" data-wa="mobile-nav" target="_blank" rel="noopener">
+            Book a FREE Trial Class
+          </a>
+          <a class="btn btn--ghost btn--block" href="tel:+15125550147" data-track="phone" data-location="mobile-nav">Call +1 (512) 555-0147</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="top">
+      <div class="container">
+        <div class="hero__grid">
+          <div class="hero__copy">
+            <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span> Robotics &amp; coding for kids · Austin, TX</p>
+
+            <h1>Build Robots.<br>Learn to Code.<br><span class="hl">Have Fun!</span></h1>
+
+            <p class="hero__lead">
+              Hands-on robotics and engineering classes for kids ages 6–10 in Austin, TX.
+            </p>
+
+            <div class="offer">
+              <svg class="offer__spark" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 2l2.2 6.3L21 10.5l-6.8 2.2L12 19l-2.2-6.3L3 10.5l6.8-2.2L12 2z" fill="#3d1a07"/>
+              </svg>
+              First Class FREE!
+            </div>
+
+            <div class="hero__cta">
+              <a class="btn btn--primary btn--lg btn__pulse" href="https://wa.me/15125550147?text=Hi%21%20I%27d%20like%20to%20book%20a%20FREE%20trial%20robotics%20class%20for%20my%20child%20%28age%20___%29.%20What%20times%20are%20available%3F" data-wa="hero" target="_blank" rel="noopener">
+                <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.4M6 21.4l-3.7 1 1-3.6A9.9 9.9 0 0 1 2 12C2 6.5 6.5 2 12 2s10 4.5 10 10-4.5 10-10 10a9.9 9.9 0 0 1-4.7-1.2" fill-rule="evenodd"/></svg>
+                Book a FREE Trial Class
+              </a>
+              <a class="btn btn--ghost btn--lg" href="#learn">
+                See the program
+                <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+
+            <p class="microtext">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8.5 12.2l2.4 2.4 4.6-5"/></svg>
+              No card needed. No commitment. Just one hour of real building and coding.
+            </p>
+
+            <div class="hero__meta">
+              <span class="hero__location">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Austin, TX — <span data-placeholder="address-short">1234 Innovation Dr, East Austin</span>
+              </span>
+              <div class="hero__chips">
+                <span class="pill">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path d="M3 20a6 6 0 0 1 12 0"/><path d="M16 5.5a3 3 0 0 1 0 5.5"/><path d="M18 14.5a5 5 0 0 1 3 4.5"/></svg>
+                  Ages 6–10
+                </span>
+                <span class="pill">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+                  60 minutes
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__visual reveal reveal--right">
+            <div class="hero__media-wrap" data-parallax="0.05">
+              <div class="hero__media glass" data-tilt>
+                <img class="hero__photo" src="assets/img/hero-robot.svg" width="560" height="560" alt="Kids building Arduino robots">
+              </div>
+
+              <div class="chip chip--code glass" data-depth="20">
+                <span class="chip__ico" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8l-4 4 4 4M16 8l4 4-4 4"/></svg>
+                </span>
+                <span><code>robot.forward(3)</code><small>their first line of code</small></span>
+              </div>
+
+              <div class="chip chip--ages glass" data-depth="30">
+                <span class="chip__ico" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/><circle cx="12" cy="12" r="4"/></svg>
+                </span>
+                <span>Ages 6–10<small>built for beginners</small></span>
+              </div>
+
+              <div class="chip chip--group glass" data-depth="26">
+                <span class="chip__ico" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path d="M3 20a6 6 0 0 1 12 0"/><path d="M16 5.5a3 3 0 0 1 0 5.5"/><path d="M18 14.5a5 5 0 0 1 3 4.5"/></svg>
+                </span>
+                <span>Max 6 kids<small>small groups</small></span>
+              </div>
+
+              <div class="chip chip--fun glass" data-depth="14">
+                <span class="chip__ico" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2 5 5 2-5 2-2 5-2-5-5-2 5-2 2-5z"/></svg>
+                </span>
+                <span>100% hands-on<small>one hour, one robot</small></span>
+              </div>
+            </div>
+            <p class="hero__caption">Real kids. Real robots. Real code — built right here in Austin.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TICKER ================= -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <div class="ticker__group">
+          <span class="ticker__item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 6.3L21 10.5l-6.8 2.2L12 19l-2.2-6.3L3 10.5l6.8-2.2L12 2z"/></svg> LEGO Education WeDo</span>
+          <span class="ticker__item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 6.3L21 10.5l-6.8 2.2L12 19l-2.2-6.3L3 10.5l6.8-2.2L12 2z"/></svg> Arduino</span>
+          <span class="ticker__item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 6.3L21 10.5l-6.8 2.2L12 19l-2.2-6.3L3 10.5l6.8-2.2L12 2z"/></svg> Block-based coding</span>
+          <span class="ticker__item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 6.3L21 10.5l-6.8 2.2L12 19l-2.2-6.3L3 10.5l6.8-2.2L12 2z"/></svg> Small groups</span>
+          <span class="ticker__item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 6.3L21 10.5l-6.8 2.2L12 19l-2.2-6.3L3 10.5l6.8-2.2L12 2z"/></svg> Engineer-teachers</span>
+          <span class="ticker__item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 6.3L21 10.5l-6.8 2.2L12 19l-2.2-6.3L3 10.5l6.8-2.2L12 2z"/></svg> Austin, TX</span>
+        </div>
+        <div class="ticker__group">
+          <span class="ticker__item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 6.3L21 10.5l-6.8 2.2L12 19l-2.2-6.3L3 10.5l6.8-2.2L12 2z"/></svg> LEGO Education WeDo</span>
+          <span class="ticker__item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 6.3L21 10.5l-6.8 2.2L12 19l-2.2-6.3L3 10.5l6.8-2.2L12 2z"/></svg> Arduino</span>
+          <span class="ticker__item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 6.3L21 10.5l-6.8 2.2L12 19l-2.2-6.3L3 10.5l6.8-2.2L12 2z"/></svg> Block-based coding</span>
+          <span class="ticker__item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 6.3L21 10.5l-6.8 2.2L12 19l-2.2-6.3L3 10.5l6.8-2.2L12 2z"/></svg> Small groups</span>
+          <span class="ticker__item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 6.3L21 10.5l-6.8 2.2L12 19l-2.2-6.3L3 10.5l6.8-2.2L12 2z"/></svg> Engineer-teachers</span>
+          <span class="ticker__item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.2 6.3L21 10.5l-6.8 2.2L12 19l-2.2-6.3L3 10.5l6.8-2.2L12 2z"/></svg> Austin, TX</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= STATS ================= -->
+    <section class="stats" aria-label="Class facts">
+      <div class="container">
+        <div class="stats__grid glass reveal">
+          <div class="stat">
+            <div class="stat__num"><span class="stat__val" data-count="60">60</span><span class="stat__unit"> min</span></div>
+            <div class="stat__label">Hands-on class length</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num"><span class="stat__val" data-count="6">6</span></div>
+            <div class="stat__label">Kids max per group</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num"><span class="stat__val" data-count="2">2</span></div>
+            <div class="stat__label">Toolkits: LEGO WeDo + Arduino</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num"><span class="stat__val" data-count="100">100</span><span class="stat__unit">%</span></div>
+            <div class="stat__label">Project-based learning</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= LEARN ================= -->
+    <section class="section" id="learn">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span> The program</p>
+          <h2>What kids will learn</h2>
+          <p>Four things every child takes home from class — not just a robot.</p>
+        </div>
+
+        <div class="learn__grid">
+          <article class="learn__card glass learn__card--1 reveal" style="--delay:0ms">
+            <div class="learn__ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="7" width="16" height="12" rx="4"/><path d="M12 3v4"/><circle cx="12" cy="2.5" r="1.4" fill="currentColor" stroke="none"/><path d="M9 12v1M15 12v1"/><path d="M9.5 16h5"/></svg>
+            </div>
+            <h3>Build real robots.</h3>
+            <p>LEGO Education WeDo and Arduino — from the first model to a moving machine.</p>
+          </article>
+
+          <article class="learn__card glass learn__card--2 reveal" style="--delay:90ms">
+            <div class="learn__ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/><path d="M13.5 5l-3 14"/></svg>
+            </div>
+            <h3>Write their first code.</h3>
+            <p>Programming basics through play: kids watch their own commands bring the robot to life.</p>
+          </article>
+
+          <article class="learn__card glass learn__card--3 reveal" style="--delay:180ms">
+            <div class="learn__ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1.1 2h5c.1-.8.5-1.5 1.1-2A6 6 0 0 0 12 3z"/></svg>
+            </div>
+            <h3>Think like engineers.</h3>
+            <p>Break down a problem, try, fail, fix — that is engineering thinking in action.</p>
+          </article>
+
+          <article class="learn__card glass learn__card--4 reveal" style="--delay:270ms">
+            <div class="learn__ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3z"/><path d="M18.5 16.5l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7.7-1.8z"/></svg>
+            </div>
+            <h3>Invent their own.</h3>
+            <p>Creativity and problem-solving: every child leaves with their own idea and their own result.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TEACHERS ================= -->
+    <section class="section" id="teachers">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span> The team</p>
+          <h2>Meet our teachers</h2>
+          <p>Engineers and educators who love making complicated things click for a seven-year-old.</p>
+        </div>
+
+        <div class="teachers__grid">
+          <article class="teacher glass reveal" style="--delay:0ms">
+            <div class="teacher__photo">
+              <img src="assets/img/teacher-1.svg" width="240" height="240" loading="lazy" alt="Photo of Alex Rivera, lead robotics instructor">
+              <span class="teacher__badge">LEGO WeDo</span>
+            </div>
+            <div class="teacher__body">
+              <h3 data-placeholder="teacher-1-name">Alex Rivera</h3>
+              <p class="teacher__role">Lead Robotics Instructor</p>
+              <p data-placeholder="teacher-1-bio">B.S. in Mechanical Engineering. Robotics and programming experience, 6+ years teaching kids — makes hard things simple.</p>
+            </div>
+          </article>
+
+          <article class="teacher glass reveal" style="--delay:90ms">
+            <div class="teacher__photo">
+              <img src="assets/img/teacher-2.svg" width="240" height="240" loading="lazy" alt="Photo of Priya Nair, Arduino instructor">
+              <span class="teacher__badge">Arduino</span>
+            </div>
+            <div class="teacher__body">
+              <h3 data-placeholder="teacher-2-name">Priya Nair</h3>
+              <p class="teacher__role">Arduino &amp; WeDo Instructor</p>
+              <p data-placeholder="teacher-2-bio">M.S. in Computer Engineering. Engineering background, hands-on with Arduino and LEGO Education. Teaches ages 6–10.</p>
+            </div>
+          </article>
+
+          <article class="teacher glass reveal" style="--delay:180ms">
+            <div class="teacher__photo">
+              <img src="assets/img/teacher-3.svg" width="240" height="240" loading="lazy" alt="Photo of Jordan Kim, coding instructor">
+              <span class="teacher__badge">Coding</span>
+            </div>
+            <div class="teacher__body">
+              <h3 data-placeholder="teacher-3-name">Jordan Kim</h3>
+              <p class="teacher__role">Coding Instructor</p>
+              <p data-placeholder="teacher-3-bio">B.S. in Computer Science. Programming and teaching kids. Helps every child get to a working result.</p>
+            </div>
+          </article>
+
+          <article class="teacher glass reveal" style="--delay:270ms">
+            <div class="teacher__photo">
+              <img src="assets/img/teacher-4.svg" width="240" height="240" loading="lazy" alt="Photo of Sam Ortiz, creative projects lead">
+              <span class="teacher__badge">STEM</span>
+            </div>
+            <div class="teacher__body">
+              <h3 data-placeholder="teacher-4-name">Sam Ortiz</h3>
+              <p class="teacher__role">Creative Projects Lead</p>
+              <p data-placeholder="teacher-4-bio">B.A. in Education, STEM focus. STEM education experience. Runs creative projects and team challenges.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PRICING ================= -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span> Simple pricing</p>
+          <h2>Start with a free class</h2>
+          <p>See your child light up first. Decide later — no card, no pressure.</p>
+        </div>
+
+        <div class="pricing__grid">
+          <article class="price-card price-card--free reveal" style="--delay:0ms">
+            <span class="price-card__flag">Best way to start</span>
+            <h3>First Class — FREE.</h3>
+            <div class="price-card__price"><span data-placeholder="price-trial">$0</span><span>first visit</span></div>
+            <p class="price-card__note">Come in, try it, watch your child in action. No payment and no commitment.</p>
+
+            <ul class="price-card__list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Build and program a real robot</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>All LEGO WeDo and Arduino kits included</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Small group, ages 6–10</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Meet the teacher and see the classroom</li>
+            </ul>
+
+            <div class="price-card__cta">
+              <a class="btn btn--primary btn--block" href="https://wa.me/15125550147?text=Hi%21%20I%27d%20like%20to%20book%20a%20FREE%20trial%20robotics%20class%20for%20my%20child%20%28age%20___%29.%20What%20times%20are%20available%3F" data-wa="pricing" target="_blank" rel="noopener">
+                Book a FREE Trial Class
+              </a>
+              <p class="price-card__foot">No card needed. One click on WhatsApp.</p>
+            </div>
+          </article>
+
+          <article class="price-card glass reveal" style="--delay:110ms">
+            <h3>Regular classes</h3>
+            <div class="price-card__price"><span data-placeholder="price-monthly">$190</span><span>/ month</span></div>
+            <p class="price-card__note">4 weekly classes · 60 minutes each · <span data-placeholder="price-format">monthly membership</span></p>
+
+            <ul class="price-card__list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>All materials and robot kits included</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Groups of up to 6 kids</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>An engineer-teacher in every class</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Progress updates for parents</li>
+            </ul>
+
+            <div class="price-card__cta">
+              <a class="btn btn--ghost btn--block" href="https://wa.me/15125550147?text=Hi%21%20I%27d%20like%20to%20book%20a%20FREE%20trial%20robotics%20class%20for%20my%20child%20%28age%20___%29.%20What%20times%20are%20available%3F" data-wa="pricing-regular" target="_blank" rel="noopener">
+                Book a FREE Trial Class
+              </a>
+              <p class="price-card__foot">Exact schedule and pricing confirmed on WhatsApp.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= LOCATION ================= -->
+    <section class="section" id="location">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span> Find us</p>
+          <h2>In the heart of Austin</h2>
+          <p>Easy to reach, easy to park, and set up for building things.</p>
+        </div>
+
+        <div class="location__grid">
+          <div class="location__card glass reveal reveal--left">
+            <h3>Our classroom</h3>
+            <p class="location__address" data-placeholder="full-address">
+              1234 Innovation Drive, Suite 210<br>
+              Austin, TX 78701
+            </p>
+            <ul class="location__list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+                <span>Weekday and weekend groups. Tell us what works for your family.</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path d="M3 20a6 6 0 0 1 12 0"/><path d="M16 5.5a3 3 0 0 1 0 5.5"/><path d="M18 14.5a5 5 0 0 1 3 4.5"/></svg>
+                <span>Ages 6–10, all levels welcome — no experience needed.</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="3"/><path d="M8 2v4M16 2v4M3 10h18"/><path d="M8 15h3"/></svg>
+                <span>All equipment provided. Kids just bring their curiosity.</span>
+              </li>
+            </ul>
+            <a class="btn btn--ghost" href="https://www.google.com/maps/dir/?api=1&amp;destination=1234%20Innovation%20Drive%20Suite%20210%20Austin%20TX%2078701" data-track="directions" data-location="location" target="_blank" rel="noopener">
+              <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg>
+              Get Directions
+            </a>
+          </div>
+
+          <div class="location__map glass reveal reveal--right">
+            <iframe
+              title="Map showing Bright Bots Academy in Austin, TX"
+              src="https://www.google.com/maps?q=Innovation%20Drive%20Austin%20TX&amp;z=13&amp;output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact__panel reveal">
+          <div class="contact__grid">
+            <div>
+              <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span> Let's talk</p>
+              <h2 style="font-size: clamp(1.9rem, 3.6vw, 2.75rem); margin: 1rem 0 0.85rem;">Book a free trial class today</h2>
+              <p style="color: var(--ink-soft); max-width: 42ch;">
+                Message us on WhatsApp — we'll reply and find a time for your free trial class.
+              </p>
+
+              <div class="contact__methods" style="margin-top: 1.5rem;">
+                <a class="contact__method contact__method--wa" href="https://wa.me/15125550147?text=Hi%21%20I%27d%20like%20to%20book%20a%20FREE%20trial%20robotics%20class%20for%20my%20child%20%28age%20___%29.%20What%20times%20are%20available%3F" data-wa="contact-card" target="_blank" rel="noopener">
+                  <span class="contact__method__ico" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.4M6 21.4l-3.7 1 1-3.6A9.9 9.9 0 0 1 2 12C2 6.5 6.5 2 12 2s10 4.5 10 10-4.5 10-10 10a9.9 9.9 0 0 1-4.7-1.2" fill-rule="evenodd"/></svg>
+                  </span>
+                  <span><small>WhatsApp</small><strong data-placeholder="whatsapp-number">+1 (512) 555-0147</strong></span>
+                </a>
+
+                <a class="contact__method contact__method--phone" href="tel:+15125550147" data-track="phone" data-location="contact-card">
+                  <span class="contact__method__ico" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+                  </span>
+                  <span><small>Phone</small><strong data-placeholder="phone-number">+1 (512) 555-0147</strong></span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__actions">
+              <a class="btn btn--primary btn--lg btn--block" href="https://wa.me/15125550147?text=Hi%21%20I%27d%20like%20to%20book%20a%20FREE%20trial%20robotics%20class%20for%20my%20child%20%28age%20___%29.%20What%20times%20are%20available%3F" data-wa="contact" target="_blank" rel="noopener">
+                <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.4M6 21.4l-3.7 1 1-3.6A9.9 9.9 0 0 1 2 12C2 6.5 6.5 2 12 2s10 4.5 10 10-4.5 10-10 10a9.9 9.9 0 0 1-4.7-1.2" fill-rule="evenodd"/></svg>
+                Book a FREE Trial Class
+              </a>
+              <p class="microtext" style="margin-top: 0; justify-content: center; text-align: left;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8.5 12.2l2.4 2.4 4.6-5"/></svg>
+                No card needed. No commitment. Just one hour of real building and coding.
+              </p>
+              <p style="font-size: 0.9rem; color: var(--muted); text-align: center;">
+                Write to us on WhatsApp — we'll reply and pick a convenient time for the free trial.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a class="brand" href="#top">
+            <span class="brand__mark" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none">
+                <rect x="29" y="12" width="6" height="10" rx="3" fill="#0f2a20"/>
+                <circle cx="32" cy="10" r="5" fill="#ff7a45"/>
+                <rect x="12" y="22" width="40" height="28" rx="10" fill="#0f2a20"/>
+                <rect x="21" y="31" width="8" height="9" rx="4" fill="#c3e88a"/>
+                <rect x="35" y="31" width="8" height="9" rx="4" fill="#c3e88a"/>
+                <path d="M26 45h12" stroke="#c3e88a" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+              </svg>
+            </span>
+            <span class="brand__text">
+              <span data-placeholder="school-name">Bright Bots</span>
+              <small>Robotics Academy · Austin</small>
+            </span>
+          </a>
+          <p class="footer__about">Hands-on robotics and engineering classes for kids ages 6–10 in Austin, TX.</p>
+        </div>
+
+        <div>
+          <h3>Explore</h3>
+          <nav class="footer__list" aria-label="Footer navigation">
+            <a href="#learn">Program</a>
+            <a href="#teachers">Teachers</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#location">Location</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+
+        <div>
+          <h3>Get in touch</h3>
+          <div class="footer__list">
+            <a href="https://wa.me/15125550147?text=Hi%21%20I%27d%20like%20to%20book%20a%20FREE%20trial%20robotics%20class%20for%20my%20child%20%28age%20___%29.%20What%20times%20are%20available%3F" data-wa="footer" target="_blank" rel="noopener">WhatsApp: <span data-placeholder="whatsapp-number">+1 (512) 555-0147</span></a>
+            <a href="tel:+15125550147" data-track="phone" data-location="footer">Phone: <span data-placeholder="phone-number">+1 (512) 555-0147</span></a>
+            <span data-placeholder="full-address">1234 Innovation Drive, Suite 210, Austin, TX 78701</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© <span id="year">2026</span> <span data-placeholder="school-name">Bright Bots Academy</span>. All rights reserved.</span>
+        <span>Made with curiosity in Austin, TX.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp CTA -->
+  <a class="wa-fab" href="https://wa.me/15125550147?text=Hi%21%20I%27d%20like%20to%20book%20a%20FREE%20trial%20robotics%20class%20for%20my%20child%20%28age%20___%29.%20What%20times%20are%20available%3F" data-wa="floating" target="_blank" rel="noopener" aria-label="Book a free trial class on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.4M6 21.4l-3.7 1 1-3.6A9.9 9.9 0 0 1 2 12C2 6.5 6.5 2 12 2s10 4.5 10 10-4.5 10-10 10a9.9 9.9 0 0 1-4.7-1.2" fill-rule="evenodd"/></svg>
+    <span class="wa-fab__label">Book a FREE class</span>
+  </a>
+
+  <script defer src="assets/js/analytics.js"></script>
+  <script defer src="assets/js/main.js"></script>
+</body>
+</html>

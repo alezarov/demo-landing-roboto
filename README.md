@@ -51,7 +51,8 @@ p01/
 ## Запуск локально
 
 ```bash
-cd /path/to/p01
+git clone https://github.com/alezarov/demo-landing-roboto.git
+cd demo-landing-roboto
 python3 -m http.server 4173 --bind 127.0.0.1
 ```
 
